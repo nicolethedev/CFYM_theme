@@ -1,5 +1,9 @@
 <?php
 
+// Load volunteer CPT and taxonomy
+require_once get_template_directory() . '/inc/volunteer.php';
+
+
 // Enqueue Styles and Scripts
 
 function cfym_enqueue_theme_assets() {
@@ -9,3 +13,4 @@ function cfym_enqueue_theme_assets() {
     }
 
 add_action( 'wp_enqueue_scripts', 'cfym_enqueue_theme_assets' );
+
