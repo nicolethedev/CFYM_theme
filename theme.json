@@ -1,6 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
 	"version": 3,
+    "name": "CFYM Theme",
+    "description": "A custom WordPress theme for Caring for Young Minds.",
+    "author": "Nicole Logan | HeyDaisy Design",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -8,55 +11,80 @@
 			"gradients": [],
 			"palette": [
 				{
-					"color": "#41068B",
-					"name": "Primary Purple",
-					"slug": "primary"
+					"color": "#41106B",
+					"name": "Darkest Purple",
+					"slug": "darkest-purple"
 				},
 				{
-					"color": "#674098",
-					"name": "Primary Dark",
-					"slug": "primary-dark"
+					"color": "#674089",
+					"name": "80% Purple",
+					"slug": "80-purple"
 				},
 				{
-					"color": "#8740A6",
-					"name": "Primary Light",
-					"slug": "primary-light"
+					"color": "#8D70A6",
+					"name": "60% Purple",
+					"slug": "60-purple"
 				},
 				{
-					"color": "#D895C",
-					"name": "Accent Orange",
-					"slug": "accent"
+					"color": "#B39FC4",
+					"name": "40% Purple",
+					"slug": "40-purple"
 				},
 				{
-					"color": "#E2A49",
-					"name": "Accent Light",
-					"slug": "accent-light"
-				},
-				{
-					"color": "#F1D544",
-					"name": "Accent Bright",
-					"slug": "accent-bright"
+					"color": "#D9CFE1",
+					"name": "20% Purple",
+					"slug": "20-purple"
 				},
 				{
 					"color": "#D5CEE1",
-					"name": "Neutral Light",
-					"slug": "neutral-light"
+					"name": "Lilac",
+					"slug": "lilac"
 				},
 				{
-					"color": "#DFCFE1",
-					"name": "Neutral BG",
-					"slug": "neutral-bg"
+					"color": "#DDD8E7",
+					"name": "80% Lilac",
+					"slug": "80-lilac"
 				},
 				{
-					"color": "#D0D8E7",
-					"name": "Neutral Gray",
-					"slug": "neutral-gray"
+					"color": "#E6E2ED",
+					"name": "60% Lilac",
+					"slug": "60-lilac"
 				},
 				{
-					"color": "#FFFFFF",
-					"name": "White",
-					"slug": "white"
-				}
+					"color": "#F5F3F8",
+					"name": "40% Lilac",
+					"slug": "40-lilac"
+				},
+				{
+					"color": "#F7F5F9",
+					"name": "20% Lilac",
+					"slug": "20-lilac"
+				},
+                {
+                    "color": "#DB951C",
+                    "name": "Bold Yellow",
+                    "slug": "bold-yellow"
+                },
+                {
+                    "color": "#E2AA49",
+                    "name": "80% Yellow",
+                    "slug": "80-yellow"
+                },
+                {
+                    "color": "#E9BF77",
+                    "name": "60% Yellow",
+                    "slug": "60-yellow"
+                },
+                {
+                    "color": "#F1D5A4",
+                    "name": "40% Yellow",
+                    "slug": "40-yellow"
+                },
+                {
+                    "color": "#F8EAD2",
+                    "name": "20% Yellow",
+                    "slug": "20-yellow"
+                }
 			]
 		},
 		"layout": {
@@ -258,24 +286,39 @@
 			],
 			"fontSizes": [
 				{
-					"name": "Small",
-					"size": "1rem",
-					"slug": "small"
-				},
-				{
-					"name": "Base",
-					"size": "1.125rem",
-					"slug": "base"
-				},
-				{
-					"name": "Large",
-					"size": "1.5rem",
-					"slug": "large"
-				},
-				{
-					"name": "X-Large",
-					"size": "2.25rem",
-					"slug": "xlarge"
+          "name": "Extra Small",
+          "slug": "extra-small",
+          "size": "0.875rem"
+        },
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "1rem"
+        },
+        {
+          "name": "Medium",
+          "slug": "medium",
+          "size": "1.25rem"
+        },
+        {
+          "name": "Large",
+          "slug": "large",
+          "size": "1.875rem"
+        },
+        {
+          "name": "X‑Large",
+          "slug": "x-large",
+          "size": "2.25rem"
+        },
+        {
+          "name": "XX‑Large",
+          "slug": "xx-large",
+          "size": "3rem"
+        },
+        {
+          "name": "XXX‑Large",
+          "slug": "xxx-large",
+          "size": "4rem"
 				}
 			],
 			"fontWeight": {
