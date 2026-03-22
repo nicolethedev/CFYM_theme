@@ -74,12 +74,184 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/inter/inter-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/inter/inter-200-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
 					"name": "Inter",
 					"slug": "inter"
 				},
 				{
-					"fontFamily": "\"Noto Sans\", Inter, system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/noto-sans/noto-sans-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans\", sans-serif",
 					"name": "Noto Sans",
 					"slug": "noto-sans"
 				}
@@ -129,6 +301,30 @@
 		"color": {
 			"background": "var(--wp--preset--color--neutral-light)",
 			"text": "var(--wp--preset--color--primary)"
+		},
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--noto-sans)",
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--noto-sans)"
+				}
+			},
+			"link": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)"
+				}
+			}
 		},
 		"spacing": {
 			"blockGap": "2rem",
