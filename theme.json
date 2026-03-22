@@ -84,6 +84,11 @@
                     "color": "#F8EAD2",
                     "name": "20% Yellow",
                     "slug": "20-yellow"
+                },
+                {
+                    "color": "#1E1E1E",
+                    "name": "Text Black",
+                    "slug": "c"
                 }
 			]
 		},
@@ -342,8 +347,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--neutral-light)",
-			"text": "var(--wp--preset--color--primary)"
+			"background": "var(--wp--preset--color--20-lilac)",
+			"text": "var(--wp--preset--color--text-black)"
 		},
 		"elements": {
 			"button": {
