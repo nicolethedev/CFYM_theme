@@ -1,9 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
 	"version": 3,
-    "name": "CFYM Theme",
-    "description": "A custom WordPress theme for Caring for Young Minds.",
-    "author": "Nicole Logan | HeyDaisy Design",
+	"description": "A custom WordPress theme for Caring for Young Minds.",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -60,40 +58,45 @@
 					"name": "20% Lilac",
 					"slug": "20-lilac"
 				},
+				{
+					"color": "#DB951C",
+					"name": "Bold Yellow",
+					"slug": "bold-yellow"
+				},
+				{
+					"color": "#E2AA49",
+					"name": "80% Yellow",
+					"slug": "80-yellow"
+				},
+				{
+					"color": "#E9BF77",
+					"name": "60% Yellow",
+					"slug": "60-yellow"
+				},
+				{
+					"color": "#F1D5A4",
+					"name": "40% Yellow",
+					"slug": "40-yellow"
+				},
+				{
+					"color": "#F8EAD2",
+					"name": "20% Yellow",
+					"slug": "20-yellow"
+				},
+				{
+					"color": "#1E1E1E",
+					"name": "Text Black",
+					"slug": "c"
+				},
                 {
-                    "color": "#DB951C",
-                    "name": "Bold Yellow",
-                    "slug": "bold-yellow"
-                },
-                {
-                    "color": "#E2AA49",
-                    "name": "80% Yellow",
-                    "slug": "80-yellow"
-                },
-                {
-                    "color": "#E9BF77",
-                    "name": "60% Yellow",
-                    "slug": "60-yellow"
-                },
-                {
-                    "color": "#F1D5A4",
-                    "name": "40% Yellow",
-                    "slug": "40-yellow"
-                },
-                {
-                    "color": "#F8EAD2",
-                    "name": "20% Yellow",
-                    "slug": "20-yellow"
-                },
-                {
-                    "color": "#1E1E1E",
-                    "name": "Text Black",
-                    "slug": "c"
+                    "color": "#342342",
+                    "name": "Footer Purple",
+                    "slug": "footer-purple"
                 }
 			]
 		},
 		"layout": {
-			"contentSize": "800px",
+			"contentSize": "1200px",
 			"wideSize": "1200px"
 		},
 		"spacing": {
@@ -291,39 +294,39 @@
 			],
 			"fontSizes": [
 				{
-          "name": "Extra Small",
-          "slug": "extra-small",
-          "size": "0.875rem"
-        },
-        {
-          "name": "Small",
-          "slug": "small",
-          "size": "1rem"
-        },
-        {
-          "name": "Medium",
-          "slug": "medium",
-          "size": "1.25rem"
-        },
-        {
-          "name": "Large",
-          "slug": "large",
-          "size": "1.875rem"
-        },
-        {
-          "name": "X‑Large",
-          "slug": "x-large",
-          "size": "2.25rem"
-        },
-        {
-          "name": "XX‑Large",
-          "slug": "xx-large",
-          "size": "3rem"
-        },
-        {
-          "name": "XXX‑Large",
-          "slug": "xxx-large",
-          "size": "4rem"
+					"name": "Extra Small",
+					"size": "0.875rem",
+					"slug": "extra-small"
+				},
+				{
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1.25rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.875rem",
+					"slug": "large"
+				},
+				{
+					"name": "X‑Large",
+					"size": "2.25rem",
+					"slug": "x-large"
+				},
+				{
+					"name": "XX‑Large",
+					"size": "3rem",
+					"slug": "xx-large"
+				},
+				{
+					"name": "XXX‑Large",
+					"size": "4rem",
+					"slug": "xxx-large"
 				}
 			],
 			"fontWeight": {
@@ -375,13 +378,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "2rem",
-			"padding": {
-				"bottom": "2rem",
-				"left": "2rem",
-				"right": "2rem",
-				"top": "2rem"
-			}
+			"blockGap": "2rem"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--inter)",
