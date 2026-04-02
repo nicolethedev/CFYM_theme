@@ -2,6 +2,7 @@
 
 // Load volunteer CPT and taxonomy
 require_once get_template_directory() . '/inc/volunteer.php';
+require_once get_template_directory() . '/inc/services.php';
 
 
 // Enqueue Styles and Scripts
