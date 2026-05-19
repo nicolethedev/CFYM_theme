@@ -26,7 +26,7 @@ add_filter( 'render_block_core/post-terms', function( $block_content, $block ) {
 }, 10, 2 );
 
 // Shortcode for displaying photo credit from post meta
-function heydaisy_post_photo_credit_shortcode( $atts ) {
+function cfym_post_photo_credit_shortcode( $atts ) {
 	$atts = shortcode_atts( array(
 		'post_id'  => get_the_ID(),
 		'meta_key' => 'photo_credit',
@@ -46,4 +46,4 @@ function heydaisy_post_photo_credit_shortcode( $atts ) {
 
 	return $atts['before'] . esc_html( $credit ) . $atts['after'];
 }
-add_shortcode( 'photo_credit', 'heydaisy_post_photo_credit_shortcode' );
+add_shortcode( 'photo_credit', 'cfym_post_photo_credit_shortcode' );
