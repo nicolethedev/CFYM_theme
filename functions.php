@@ -25,3 +25,25 @@ add_filter( 'render_block_core/post-terms', function( $block_content, $block ) {
     return preg_replace( '#<a[^>]*>(.*?)</a>#is', '$1', $block_content );
 }, 10, 2 );
 
+// Shortcode for displaying photo credit from post meta
+function heydaisy_post_photo_credit_shortcode( $atts ) {
+	$atts = shortcode_atts( array(
+		'post_id'  => get_the_ID(),
+		'meta_key' => 'photo_credit',
+		'before'   => '',
+		'after'    => '',
+	), $atts, 'photo_credit' );
+
+	if ( empty( $atts['post_id'] ) ) {
+		return '';
+	}
+
+	$credit = get_post_meta( $atts['post_id'], $atts['meta_key'], true );
+
+	if ( empty( $credit ) ) {
+		return '';
+	}
+
+	return $atts['before'] . esc_html( $credit ) . $atts['after'];
+}
+add_shortcode( 'photo_credit', 'heydaisy_post_photo_credit_shortcode' );
