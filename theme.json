@@ -103,7 +103,10 @@
 			"units": [
 				"px",
 				"em",
-				"rem"
+				"rem",
+				"%",
+				"vw",
+				"vh"
 			]
 		},
 		"typography": {
